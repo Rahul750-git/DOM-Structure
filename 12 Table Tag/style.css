@@ -1,0 +1,13 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+caption{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    border: 2px solid black;
+    border-collapse: collapse;
+}

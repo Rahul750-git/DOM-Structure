@@ -1,0 +1,165 @@
+
+*{
+    background-color: peachpuff;
+     font-family: Arial, sans-serif;
+     text-align: center;
+     border-collapse: collapse  
+}
+#div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+}
+.cp{
+ color: red;
+}
+#Name{
+    font-size: 10px;
+    color: #333;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+#Email{
+    font-size: 10px;
+     text-align: center;
+    color: #333;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+#Password{
+    font-size: 10px;
+    color: #333;
+     text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+#ConfirmPassword{
+    font-size: 10px;
+    color: #333;
+     text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+#Date{
+    font-size: 10px;
+    color: #333;
+     text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+#state{
+    font-size: 15px;
+    color: #333;
+     text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+#age{
+    font-size: 10px;
+    color: #333;
+     text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+#Male{
+    font-size: 10px;
+    color: #333;
+     text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    width: 20px;
+    background-color: #f0f0f0;
+}
+#Female{
+    font-size: 10px;
+    color: #333;
+     text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    width: 20px;
+    background-color: #f0f0f0;
+}
+#datetime{
+    font-size: 10px;
+    color: #333;
+     text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+#number{
+    font-size: 10px;
+    color: #333;
+     text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 70px;
+    background-color: #f0f0f0;
+}
+#file{
+    font-size: 10px;
+    color: #333;
+     text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+#age{
+    font-size: 10px;
+    color: #333;
+     text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+#textarea{
+    font-size: 10px;
+    color: #333;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f0f0f0;
+}
+
+#Submit{
+    font-size: 10px;
+    color: #333;
+     text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #cdc1c1;
+}
+
+
+#Submit:hover{
+    background-color: #333;
+    transition: background-color 0.2s ;
+    color: white;
+    cursor:pointer;
+}

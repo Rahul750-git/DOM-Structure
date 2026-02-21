@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h1 class="cp">Registration Form</h1>
+     <div id="div">
+      <form action="">
+        <label for="Name">UserName</label>
+        <input type="text" id="Name" name="Name" placeholder=" Enter your name">
+        <br>
+
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email" placeholder="Enter Your Email">
+        <br>
+
+        <label for="Password">Password</label>
+        <input type="password" id="Password" name="Password" placeholder="Enter Your Password">
+        <br>
+
+        <label for="ConfirmPassword">Confirm Password</label>
+        <input type="password" id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirm Password">
+        <br>
+
+        <label for="Date">Date of Birth</label>
+        <input type="date" id="Date" name="Date">
+        <br>
+
+        <label for="datetime">DateTime</label>
+        <input type="datetime-local" id="datetime" name="datetime">
+        <br>
+
+        <label for="number">Items</label>
+        <input type="number" id="number" name="number" min="1" max="10" placeholder="Quantity">
+        <br>
+        <select name="state" id="state">
+            <option value="rj">Rajasthan</option>
+            <option value="dl">Delhi</option>
+            <option value="mh">Maharashtra</option>
+            <option value="ka">Karnataka</option>
+        </select>
+        <br>
+
+        <label for="file">files</label>
+        <input type="file" id="file" name="file">
+        <br>
+        <label for="age"> Above 18</label>
+        <input type="checkbox" id="age" name="age" >
+        <br>
+        
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <br>
+
+        <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Enter your address"></textarea>
+        <br>
+        <input type="submit" value="Submit" id="Submit">
+
+    </form>  
+     </div>
+    
+</body>
+</html>
