@@ -1,0 +1,26 @@
+.block{
+    display: inline;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+}
+.inline{
+    display: block;
+    padding: 10px;
+    margin: 100px;
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    text-align: center;
+}
+.inline-block{
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    margin: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+}

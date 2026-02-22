@@ -1,0 +1,65 @@
+*{
+    background-color: aqua;
+}
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #c02828;
+  text-decoration-style: wavy;
+}
+.overline {
+  text-decoration: overline;
+    text-decoration-color: #c02828;
+    text-decoration-style: double;
+}
+.line-through {
+  text-decoration: line-through;
+    text-decoration-color: #c02828;
+    text-decoration-style: solid;
+}
+.none {
+  text-decoration: none;
+
+}
+.italic {
+ text-transform: italic;
+}
+.bold {
+ text-transform: bold;
+}
+.small-caps {
+ text-transform: small-caps;
+}
+.uppercase {
+ text-transform: uppercase;
+}
+.lowercase {
+ text-transform: lowercase;
+}
+.capitalize {
+ text-transform: capitalize;
+}
+.shadow {
+ text-shadow: 2px 2px 5px red,
+              -2px 2px 5px blue,
+              2px -2px 5px green,
+              -2px -2px 5px yellow;
+ font-size: 30px;
+}
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.justify{
+    text-align: justify;
+}
+.spacing{
+    letter-spacing: 5px;
+}
+.word-spacing{
+    word-spacing: 5px;
+}

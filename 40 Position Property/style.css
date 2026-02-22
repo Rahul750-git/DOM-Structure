@@ -1,0 +1,29 @@
+div{
+    height: 2cm;
+    width: 80%;
+    text-align: center;
+    font-size: 40px;
+}
+#f{
+    background-color: yellow;
+     position: fixed;
+     left: 0px;
+ 
+}
+#r{
+    background-color: pink;
+    position: relative;
+    left: 30px;
+   
+   
+}
+#a{
+    background-color: green;
+   position:absolute;
+   top:100px;
+}
+#st{
+    background-color: skyblue;
+    position: sticky;
+   left: 30px;
+}
